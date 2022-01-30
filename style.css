@@ -14,14 +14,21 @@
 
 #clr_button {
     margin-top: 50px;
-    margin-left: calc(50% - 40px);
-    width: 100px;
-    height: 40px;
+    margin-left: calc(50% - 75px);
+    width: 150px;
+    height: 50px;
     border: 1px solid #444;
     border-radius: 3px;
     cursor: pointer;
     background: #B0C4DE;
     color: #000;
+}
+#clr_button:hover {
+    background: #fff;
+}
+#clr_button:active {
+    background: #fff;
+    margin-top: 52px;
 }
 
 #counter {
