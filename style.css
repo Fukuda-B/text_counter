@@ -1,0 +1,33 @@
+#title {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+
+#text_area {
+    height: 250px;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+    padding: 10px 5px;
+}
+
+#clr_button {
+    margin-top: 50px;
+    margin-left: calc(50% - 40px);
+    width: 100px;
+    height: 40px;
+    border: 1px solid #444;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #B0C4DE;
+    color: #000;
+}
+
+#counter {
+    text-align: center;
+}
+
+#option {
+    text-align: center;
+}
