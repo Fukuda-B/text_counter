@@ -44,6 +44,7 @@ function update_disp(text) { // update counter
 
 function clr_text(event) { // clear textarea
     text_area.value = '';
+    update_settings('', settings.dark_mode, settings.spell_check);
     update_disp(text_area);
 }
 
