@@ -53,7 +53,7 @@ function change_dark_mode() { // save & call disp_dark_mode
     disp_dark_mode(dark_mode.checked); // disp dark mode
 }
 
-function disp_dark_mode(val) { // cahnge display
+function disp_dark_mode(val) { // change display
     let body = document.getElementsByTagName('body')[0]; // get body
     if (val) {
         body.style = 'background: #222; color: #eee';
